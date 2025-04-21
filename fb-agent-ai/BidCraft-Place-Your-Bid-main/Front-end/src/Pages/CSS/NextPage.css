@@ -1,0 +1,79 @@
+.next-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .next-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .process-button,
+  .submit-button,
+  .log-button,
+  .compose-button,
+  .back-button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .process-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .log-button {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .compose-button {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .back-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .log-display {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+    font-family: monospace;
+    white-space: pre-wrap;
+  }
+  

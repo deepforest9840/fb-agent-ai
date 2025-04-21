@@ -1,0 +1,50 @@
+.biddisplay-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .biddisplay-image {
+    flex: 1; /* 1/4 part */
+  }
+  
+  .biddisplay-details {
+    flex: 3; /* 3/4 part */
+    padding-left: 20px; /* Add space between the image and details */
+  }
+  
+  .biddisplay-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .biddisplay-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .bidding-details {
+    margin-top: 20px;
+  }
+  
+  .bidding-details p {
+    margin-bottom: 5px;
+  }
+  
+  .bid-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .bid-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bid-section button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,64 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .bidding-details {
+    margin-top: 20px;
+  }
+  
+  .bidding-details p {
+    margin-bottom: 5px;
+  }
+  
+  .bid-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .bid-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bid-section button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .product-container {
+      flex-direction: column;
+    }
+  
+    .product-image {
+      width: 100%;
+    }
+  
+    .product-details {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

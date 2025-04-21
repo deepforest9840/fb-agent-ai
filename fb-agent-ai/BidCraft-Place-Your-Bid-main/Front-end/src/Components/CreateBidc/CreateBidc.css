@@ -1,0 +1,62 @@
+.create-bidc {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 144px;
+  }
+  
+  .create-bidc h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-bidc form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-bidc .form-group {
+    margin-bottom: 40px;
+  }
+  
+  .create-bidc .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 65px;
+  }
+  
+  .create-bidc input[type='text'],
+  .create-bidc input[type='number'],
+  .create-bidc input[type='datetime-local'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  .submit-button{
+    margin-top: 122px;
+    width: 134px;
+    margin-left: 222px;
+    height:32px;
+    
+  }
+  .create-bidc input[type='submit'] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    margin-top: 44px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .create-bidc input[type='submit']:hover {
+    background-color: #45a049;
+  }
+  
+  .create-bidc input[type='submit']:focus {
+    outline: none;
+    
+  }
+  

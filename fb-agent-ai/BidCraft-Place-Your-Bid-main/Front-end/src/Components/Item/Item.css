@@ -1,0 +1,38 @@
+.item{
+  width: 350px;
+  cursor: pointer;
+}
+.item p{
+  margin: 6px 0px;
+}
+.item-prices{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item-price-new{
+  color: #374151;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item-price-old{
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.item-Auction-End-Date{
+  color: #29d9bf;
+  font-size: 20px;
+  font-weight: 500;
+ 
+}
+.item-bid{
+  color: #65eb28;
+  font-size: 20px;
+  font-weight: 500;
+}
+.item:hover{
+  transform: scale(1.05);
+  transition: .6s;
+}
